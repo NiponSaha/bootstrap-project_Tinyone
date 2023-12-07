@@ -1,0 +1,245 @@
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* Common CSS Start */
+body {
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Common CSS End */
+
+/* Header CSS Start */
+header {
+    padding: 30px 0;
+    background-color: #fcdb00;
+}
+
+.menu-items ul li a {
+    padding-left: 90px !important;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    transition: 0.3s;
+}
+
+.menu-items ul li a:hover {
+    color: #fff;
+    transition-delay: 0.2s;
+}
+/* Header CSS End */
+
+/* Slider CSS Start */
+.slider {
+    padding-bottom: 115px;
+    background-color: #fcdb00;
+}
+
+.c-slidr-indictr {
+    bottom: -80px;
+}
+
+.c-slidr-indictr [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.slider-left {
+    padding-right: 125px;
+}
+
+.slider-item-txt h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.slider-item-txt h2 {
+    margin: 22px 0 28px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slider-item-txt p {
+    margin: 0 0 40px 0;
+}
+
+.slider-right {
+    text-align: center;
+    margin-left: 120px;
+}
+
+.fa-icn1 i {
+    color: #000;
+    transition: 0.3s;
+}
+
+.fa-icn1 i:hover {
+    transform: scale(.8);
+}
+
+.fa-apple {
+    font-size: 50px;
+}
+
+.fa-mobile {
+    font-size: 40px;
+    padding: 0 40px 0;
+}
+
+.fa-windows {
+    font-size: 45px;
+}
+
+.slide2 {
+    color: #800080;
+}
+
+.fa-icn2 i {
+    color: #800080;
+    transition: 0.3s;
+}
+
+.fa-icn2 i:hover {
+    transform: scale(.8);
+}
+
+.slide3 {
+    color: #006080;
+}
+
+.fa-icn3 i {
+    color: #006080;
+    transition: 0.3s;
+}
+
+.fa-icn3 i:hover {
+    transform: scale(.8);
+}
+/* Slider CSS End */
+
+/* Features CSS Start */
+.features,
+.submit {
+    padding: 100px 0 120px 0;
+}
+
+.features-title, 
+.submit-title {
+    text-align: center;
+}
+
+.features-title h1, 
+.submit-title h1 {
+    margin-bottom: 22px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.features-title h2,
+.submit-title h2 {
+    font-size: 20px;
+    color: #898989;
+}
+
+.single-features-itm {
+    margin-top: 80px;
+}
+
+.ftr-itm-icn:hover {
+    color: #fcdb00;
+    cursor: pointer;
+}
+
+.ftr-itm-icn i {
+    font-size: 50px;
+}
+
+.ftr-itm-txt h2 {
+    font-size: 22px;
+}
+
+.ftr-itm-txt p {
+    color: #898989;
+}
+/* Features CSS End */
+
+/* Submit CSS Start */
+.submit {
+    background-color: #000;
+}
+
+.submit-title h1 {
+    color: #fcdb00;
+}
+
+.submit-field {
+    margin: 50px 0 70px;
+}
+
+.custm-input {
+    padding: 12px 30px;
+} 
+
+.btn-submit {
+    width: 100%;
+    padding: 12px 30px;
+    font-weight: 700;
+    background-color: #fcdb00;
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+    background-color: #fff !important;
+}
+
+.submit-social-icons i {
+    font-size: 50px;
+    color: #fcdb00;
+    margin: 0 15px 0;
+}
+
+.submit-social-icons i:hover {
+    color: #fff;
+    cursor: pointer;
+}
+/* Submit CSS End */
+
+/* Footer CSS Start */
+.footer {
+    padding-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.address {
+    margin-right: 86px;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #000;
+}
+
+.footer-btm-txt {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-btm-txt a {
+    color: #fcdb00;
+    text-decoration: none;
+}
+
+.footer-btm-txt a:hover {
+    color: #fff;
+}
+/* Footer CSS End */

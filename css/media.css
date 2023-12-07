@@ -1,0 +1,213 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* Header Part CSS */
+    header {
+        padding: 30px 0 20px 0;
+    }
+
+    .menu-items {
+        padding: 10px 0 0;
+        text-align: right;
+    }
+    
+    .menu-items ul li a {
+        padding: 4px !important;
+        font-size: 20px;
+    }
+
+    /* Slider Part CSS */
+    .slider-left {
+        margin-bottom: 50px;
+        padding-right: 0;
+        text-align: center;
+    }
+        
+    .slider-right {
+        margin-left: 0;
+    }
+
+    /* Features Part CSS */
+    .features {
+        padding: 60px 0 100px 0;
+    }
+
+    .single-features-itm {
+        margin-top: 48px;
+    }
+
+    .ftr-itm-icn {
+        margin-bottom: 16px;
+        
+    }
+
+    .features-title h2, 
+    .submit-title h2 {
+        font-size: 18px;
+    }
+
+    /* Submit Part CSS */
+    .submit {
+        padding: 60px 0 100px 0;
+    }
+
+    .submit-social-icons i {
+        margin: 0 5px 0;
+    }
+
+    .btn-submit {
+        margin-top: 20px;
+    } 
+
+    /* Footer Part CSS */
+    .address {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .txt-align {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Header Part CSS */
+    .menu-items {
+        padding: 10px 0 0;
+        text-align: right;
+    }
+
+    .menu-items ul li a {
+        padding: 4px !important;
+        font-size: 20px;
+    }
+
+    /* Slider Part CSS */
+    .slider-left {
+        margin-bottom: 50px;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    .slider-right {
+        margin-left: 15px;
+    }
+
+    /* Features Part CSS */
+    .features {
+        padding: 60px 0 100px 0;
+    }
+
+    .single-features-itm {
+        margin-top: 48px;
+    }
+
+    .ftr-itm-icn {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    /* Submit Part CSS */
+    .submit {
+        padding: 60px 0 80px 0;
+    }
+
+    .submit-social-icons i {
+        margin: 0 5px 0;
+    }
+
+    /* Footer Part CSS */
+    .footer {
+        padding-bottom: 28px;
+    }
+
+    .address {
+        margin: 0 150px 32px;
+        text-align: center;
+    }
+
+    .txt-align{
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* Header Part CSS */
+    .menu-items ul li a {
+        padding-left: 35px !important;
+        font-size: 20px;
+    }
+
+    /* Slider Part CSS */
+    .slider-left {
+        padding-right: 0;
+    }
+
+    .slider-right {
+        margin-left: 15px;
+    }
+
+    /* Features Part CSS */
+    .features {
+        padding: 60px 0 100px 0;
+    }
+
+    .single-features-itm {
+        margin-top: 48px;
+    }
+    
+    .ftr-itm-icn {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    /* Submit Part CSS */
+    .submit {
+        padding: 60px 0 100px 0;
+    }
+
+    .btn-submit {
+        width: 90%;
+    }
+        
+    /* Footer Part CSS */
+    .address {
+        margin-right: 0;
+    }
+}
+
+/* Large devices (laptops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Slider Part CSS */
+    .slider-left {
+        padding-right: 0;
+    }
+
+    .slider-right {
+        margin-left: 20px;
+    }
+
+    /* Footer Part CSS */
+    .address {
+        margin-right: 25px;
+    }
+}
+
+/* Extra large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* Slider Part CSS */
+    .slider-left {
+        padding-right: 40px;
+    }
+
+    .slider-right {
+        margin-left: 90px;
+    }
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	
+}

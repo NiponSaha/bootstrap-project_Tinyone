@@ -1,0 +1,106 @@
+Responsive breakdown:
+xxl : 1440 / 1600 / 1800 / 2100
+xl  : 1200
+lg  : 992 / 1024
+md  : 768
+sm  : 576
+xs  : 320
+
+Padding Measurement:
+xxl/xl/lg   : 100-120px
+md          : 80px
+sm/xs       : 50-60px
+ 
+Section:
+    Header/Menu Bar
+    Slider
+    Features
+    Submit
+    Footer
+    Footer Bottom
+
+Color: 
+    yellow  = #fcdb00;
+    black   = #000;
+    white   = #fff;
+    gray    = #898989;
+    slider2 = #800080;
+    slider3 = #006080;
+
+Font:
+    font-family: 'PT Sans', sans-serif;
+    PTSans regular
+    PTSans bold
+
+Common CSS: 
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+=============== Menu Bar ================
+Menu(s) :
+    font-size: 22px;
+    font-weight: 700;
+
+Menu-hover : 
+    color: white;
+
+=============== Slider ================
+Heading : 
+    font-size: 32px;
+    font-weight: 700;
+
+h2 : 
+    font-size: 20px;
+
+p : 
+    common css
+
+=============== Features ================
+Heading : 
+    font-size: 32px;
+    font-weight: 700;
+
+h2 : 
+    font-size: 20px;
+
+Feature Items Heading : 
+    font-size: 22px;
+
+Feature Items paragraph : 
+    common css
+    color: gray;
+
+=============== Submit ================
+Heading : 
+    font-size: 32px;
+    font-weight: 700;
+    color: yellow;
+
+p1 : 
+    font-size: 20px;
+    color: gray;
+
+Submit E-mail Field: 
+    common css
+    color: gray;
+
+Submit button: 
+    font-size: 16px;
+    font-weight: 700;
+
+=============== Footer ================
+p : 
+    common css
+    color: white;
+
+
+
+
+
+
+
+

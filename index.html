@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiny One</title>
+    <!-- Favicon link -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- Font Awesome Links -->
+    <script
+      src="https://kit.fontawesome.com/1c5a295717.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- Header part Start -->
+    <header class="sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid px-0 menu">
+            <!-- Logo -->
+            <div class="logo-part">
+              <a class="navbar-brand me-0" href="index.html">
+                <img src="images/logo.png" alt="Logo" />
+              </a>
+            </div>
+            <!-- Burger Menu -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTinyone"
+              aria-controls="navbarTinyone"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu items -->
+            <div class="collapse navbar-collapse menu-items" id="navbarTinyone">
+              <ul class="navbar-nav ms-auto mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#features"
+                    >Features</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#support"
+                    >Support</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#blog">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header part End -->
+    <!-- Slider Part Start -->
+    <section class="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Carousel Start -->
+            <div
+              id="sliderIndicator"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <!-- indicators -->
+              <div class="carousel-indicators c-slidr-indictr">
+                <button
+                  type="button"
+                  data-bs-target="#sliderIndicator"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#sliderIndicator"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#sliderIndicator"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <!-- Inner -->
+              <div class="carousel-inner">
+                <!-- slider item-1 -->
+                <div class="carousel-item active">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                      <div class="slider-left">
+                        <div class="slider-item-txt">
+                          <h1 class="mb-0">Inspire your inspiration</h1>
+                          <h2>
+                            Simple to use for your app, products showcase and
+                            your inspiration
+                          </h2>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Modi, sunt nobis natus aspernatur nihil eum
+                            voluptas illum labore cupiditate, sequi nam facilis
+                            quidem, sit quisquam asperiores officia distinctio
+                            sed nesciunt.
+                          </p>
+                        </div>
+                        <div class="slider-item-icon fa-icn1">
+                          <i class="fa-brands fa-apple"></i>
+                          <i class="fa-solid fa-mobile"></i>
+                          <i class="fa-brands fa-windows"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="offset-lg-2 col-lg-5 offset-md-0 col-md-6">
+                      <div class="slider-right">
+                        <div class="slider-item-img">
+                          <img
+                            src="images/banner-ipad.png"
+                            alt="slider image of tinyone"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slider item-2 -->
+                <div class="carousel-item">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                      <div class="slider-left">
+                        <div class="slider-item-txt slide2">
+                          <h1 class="mb-0">Inspire your inspiration</h1>
+                          <h2>
+                            Simple to use for your app, products showcase and
+                            your inspiration
+                          </h2>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatem soluta ad a aliquam quia voluptas
+                            eaque, iure necessitatibus facilis quas consequatur
+                            neque dignissimos praesentium laboriosam? Nam,
+                            corrupti repellat. Laudantium, esse.
+                          </p>
+                        </div>
+                        <div class="slider-item-icon fa-icn2">
+                          <i class="fa-brands fa-apple"></i>
+                          <i class="fa-solid fa-mobile"></i>
+                          <i class="fa-brands fa-windows"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="offset-lg-2 col-lg-5 offset-md-0 col-md-6">
+                      <div class="slider-right">
+                        <div class="slider-item-img">
+                          <img
+                            src="images/banner-purple.png"
+                            alt="slider image of tinyone"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slider item-3 -->
+                <div class="carousel-item">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                      <div class="slider-left">
+                        <div class="slider-item-txt slide3">
+                          <h1 class="mb-0">Inspire your inspiration</h1>
+                          <h2>
+                            Simple to use for your app, products showcase and
+                            your inspiration
+                          </h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Maxime odit, dolor aspernatur dolore incidunt
+                            saepe beatae minima, culpa odio expedita ex. Nulla
+                            quam, doloremque enim deleniti accusamus est
+                            voluptatibus numquam?
+                          </p>
+                        </div>
+                        <div class="slider-item-icon fa-icn3">
+                          <i class="fa-brands fa-apple"></i>
+                          <i class="fa-solid fa-mobile"></i>
+                          <i class="fa-brands fa-windows"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="offset-lg-2 col-lg-5 offset-md-0 col-md-6">
+                      <div class="slider-right">
+                        <div class="slider-item-img">
+                          <img
+                            src="images/banner-green.png"
+                            alt="slider image of tinyone"
+                            class="img-fluid"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slider item-3 end -->
+              </div>
+            </div>
+            <!-- Carousel End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider Part End -->
+    <!-- Features Part Start -->
+    <section class="features" id="features">
+      <div class="container">
+        <!-- 1st Row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <!-- Features title -->
+            <div class="features-title">
+              <h1>Tinyone features</h1>
+              <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                corrupti iusto doloremque rerum quos pariatur debitis laborum
+                veritatis rem necessitatibus.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd Row -->
+        <div class="row">
+          <!-- Features items one -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-solid fa-tablet-screen-button"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>Fully Responsive</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Non, commodi aperiam. Veritatis, sed eos? Temporibus
+                    deleniti beatae eius reprehenderit nobis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features items two -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-regular fa-folder"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>Fully Layered PSD</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                    deserunt magni ut similique saepe nam aliquam nihil
+                    necessitatibus sint nesciunt?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features items three -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-regular fa-lemon"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>Font Awesome Icons</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Saepe repellat ipsa necessitatibus explicabo alias
+                    temporibus et vel esse totam pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features items four -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>HTML5 & CSS3</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi blanditiis quibusdam dolorem cumque quae omnis soluta
+                    fugit asperiores, doloremque ratione.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features items five -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>Email Template</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis cumque deserunt voluptatibus voluptatem nihil,
+                    expedita recusandae! Ad doloribus voluptatem quas?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Features items six -->
+          <div class="col-lg-4 col-md-6 col-sm-6 single-features-itm">
+            <div class="row">
+              <div class="col-lg-3 text-center">
+                <div class="ftr-itm-icn">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="ftr-itm-txt">
+                  <h2>Free to download</h2>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veritatis nemo ab maiores neque iusto recusandae distinctio
+                    dolore ut saepe cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features Part End -->
+    <!-- Submit Part Start -->
+    <section class="submit" id="support">
+      <div class="container">
+        <!-- Submit Title -->
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="submit-title">
+              <h1>Keep in touch with us</h1>
+              <h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Necessitatibus vel odit eligendi velit corrupti aliquam deserunt
+                impedit sunt possimus temporibus.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- Submit E-mail field -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="email-form">
+              <form action="#" class="row submit-field">
+                <div class="col-lg-9 col-md-8 col-sm-8">
+                  <input
+                    type="email"
+                    class="form-control custm-input"
+                    placeholder="Enter your email to update"
+                    aria-label="email"
+                  />
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 text-center">
+                  <button type="submit" class="btn btn-submit">SUBMIT</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Submit Social Icons -->
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="submit-social-icons text-center">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-google-plus"></i>
+              <i class="fa-brands fa-square-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Submit Part End -->
+    <!-- Footer part Start -->
+    <section class="footer" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="address">
+              <p class="mb-0"><strong>HALOVIETNAM LTD.</strong></p>
+              <p class="mb-0">
+                66, Dang Van Ngu <br />
+                Dong Da Hanoi, Vietnam <br />
+                contact@halovietnam.com <br />
+                +844 35149182
+              </p>
+            </div>
+          </div>
+          <div class="offset-lg-1 col-lg-2 col-md-2 col-sm-3 txt-align">
+            <div class="examples">
+              <ul class="list-unstyled">
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">License</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 txt-align">
+            <div class="contact">
+              <ul class="list-unstyled">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 txt-align">
+            <div class="download">
+              <ul class="list-unstyled">
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Documents</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 txt-align">
+            <div class="media">
+              <ul class="list-unstyled">
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Forums</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer part End -->
+    <!-- Footer Bottom Part Start  -->
+    <section class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-btm-txt">
+              <p>Copyright © 2023 | <a href="index.html">www.tinyone.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Bottom Part End  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
